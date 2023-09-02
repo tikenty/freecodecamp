@@ -18,11 +18,11 @@ Add a local variable to myOutfit function to override the value of outerWear wit
 // Setup
 const outerWear = "T-Shirt";
 
-function myOutfit() {
+function myOutfit(outfit) {
     // Only change code below this line
-    const outerWear = "sweater";
+    outfit = "sweater";
     // Only change code above this line
-    return outerWear;
+    return outfit;
 
 }
 
